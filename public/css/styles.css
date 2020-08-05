@@ -1,0 +1,43 @@
+html,
+body {
+  height: 100%;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#chat {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  width: 790px;
+  border: 1px solid #ddd;
+  height: 55px !important;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.btnEnviar {
+  width: 100px;
+  height: 50px;
+  margin-top: -10px;
+}
+
+.messages {
+  width: 900px;
+  height: 400px;
+  margin: 20px 0;
+  border: 5px solid #4B0082;
+  padding: 20px;
+  background: #f0f0f7;
+  border-radius: 1.5%;
+}
